@@ -7,7 +7,7 @@ import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
 
-import { Work } from "../data/WorkData";
+import { Education } from "../data/EducationData";
 import Card from "../subComponents/Card";
 import { YinYang } from "./AllSvgs";
 import BigTitlte from "../subComponents/BigTitlte";
@@ -53,7 +53,7 @@ const container = {
   },
 };
 
-const WorkPage = () => {
+const EducationPage = () => {
   const ref = useRef(null);
   const yinyang = useRef(null);
 
@@ -81,7 +81,7 @@ const WorkPage = () => {
         <PowerButton />
 
         <Main ref={ref} variants={container} initial="hidden" animate="show">
-          {Work.map((d) => (
+          {Education.map((d) => (
             <Card key={d.id} data={d} />
           ))}
         </Main>
@@ -89,10 +89,10 @@ const WorkPage = () => {
           <YinYang width={80} height={80} fill={DarkTheme.text} />
         </Rotate>
 
-        <BigTitlte text="WORK" top="10%" right="20%" />
+        <BigTitlte text="EDUCATION" top="10%" right="20%" />
       </Box>
     </ThemeProvider>
   );
 };
 
-export default WorkPage;
+export default EducationPage;

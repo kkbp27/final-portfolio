@@ -11,21 +11,21 @@ import AnchorComponent from '../subComponents/Anchor'
 import BigTitle from "../subComponents/BigTitlte"
 import { motion } from 'framer-motion'
 
-
 const MainContainer = styled(motion.div)`
-background-image: url(${img});
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
+  background-image: url(${img});
+  background-size: 100% auto; /* 100% width, auto height */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 110vh; /* Set the height to 100% of viewport height */
 `
-const Container = styled.div`
-background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
-width: 100%;
-height:auto;
 
-position: relative;
-padding-bottom: 5rem;
+const Container = styled.div`
+  background-color: ${props => `rgba(${props.theme.bodyRgba},0.8)`};
+  width: 100%;
+  height: 100vh; /* 100% of viewport height */
+  position: relative;
+  padding-bottom: 5rem;
 `
 
 const Center = styled.div`

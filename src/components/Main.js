@@ -145,7 +145,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" href="mailto:codebucks27@gmail.com">
+            <Contact target="_blank" href="mailto:kotchakon391@gmail.com">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -178,7 +178,7 @@ const Main = () => {
                     Experience
                 </motion.h2>
             </BLOG>
-            <WORK to="/work" click={+click}>
+            <WORK to="/education" click={+click}>
                 <motion.h2
                 initial={{
                     y:-200,
