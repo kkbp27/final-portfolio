@@ -1,1 +1,1 @@
-Click visit http://localhost:3000/
+Click to visit >> https://kkbp-portfolio.netlify.app/
