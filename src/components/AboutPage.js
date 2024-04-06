@@ -74,7 +74,7 @@ const AboutPage = () => {
         <Main>
         As a fourth year Bachelor’s degree student in Electronic Computer Technology at King Mongkut’s University of Technology North Bangkok.
         <br /> <br/>
-        I am enthusiastic about exploring and enhancing my skills in the areas of networking, software, and web development
+        I am enthusiastic about exploring and enhancing my skills in the areas of frontend and web development
         <br/> <br/>
         I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
         </Main>
