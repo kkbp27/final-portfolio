@@ -8,7 +8,7 @@ import SocialIcons from '../subComponents/SocialIcons';
 import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
-import astronaut from '../assets/Images/spaceman.png'
+import astronaut from '../assets/Images/kbp.png'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -69,12 +69,12 @@ const AboutPage = () => {
 <ParticleComponent theme='dark' />
 
         <Spaceman>
-            <img src={astronaut} alt="spaceman" />
+            <img src={astronaut} alt="kk" />
         </Spaceman>    
         <Main>
         As a fourth year Bachelor’s degree student in Electronic Computer Technology at King Mongkut’s University of Technology North Bangkok.
         <br /> <br/>
-        I am enthusiastic about exploring and enhancing my skills in the areas of frontend and web development
+        I am enthusiastic about exploring and enhancing my skills in the areas of front-end and web development
         <br/> <br/>
         I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
         </Main>
